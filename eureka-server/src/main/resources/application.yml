@@ -1,0 +1,12 @@
+server:
+  port: 8787
+
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8081
